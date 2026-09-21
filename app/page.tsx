@@ -2,7 +2,6 @@ import { Preloader } from "@/components/layout/Preloader";
 import { Hero } from "@/components/sections/Hero";
 import { Manifesto } from "@/components/sections/Manifesto";
 import { JiuJitsuSection } from "@/components/sections/JiuJitsuSection";
-import { Athlete3DSection } from "@/components/sections/Athlete3DSection";
 import { Modalidades } from "@/components/sections/Modalidades";
 import { AulasKidsSection } from "@/components/sections/AulasKidsSection";
 import { Professores } from "@/components/sections/Professores";
@@ -26,7 +25,6 @@ export default function Home() {
       <Manifesto />
       <SectionDivider />
       <JiuJitsuSection />
-      <Athlete3DSection />
       <SectionDivider />
       <Modalidades />
       <AulasKidsSection />
